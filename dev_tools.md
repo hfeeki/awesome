@@ -1,44 +1,31 @@
 开发中需要用到的工具分类
 ------------------------
-1. 源代码管理工具, 比如：git, svn 
+1. 源代码管理工具, 比如：git, svn
 2. 依赖管理工具, 比如：maven, gradle, npm, cocoapods
-3. 持续集成工具, 比如：grunt 
+3. 持续集成工具, 比如：grunt
 4. 构建工具, 比如：scons, cmake
-5. 编译工具, 比如：gcc 
+5. 编译工具, 比如：gcc
 6. Bug管理工具
-7. 
+7.
 
-
-http://jqt.zed-3.com.cn/jqt.apk
-
-ExpressVPN activation code: EBCGY1TCP5KAF5YPQ5SISX6
-
-Email: mymojing@163.com 
-Password: lIR07axv
-
-ios: 
-Username: mymojing@163.com 
-Password: 588215162
-
-svn checkout http://webrtc.googlecode.com/svn/trunk/ webrtc
 
 IOS good tools
 ---------------
 
 
-Image cache 
+Image cache
 =============
-1. SGImageCache: 
+1. SGImageCache:
 	url: https://github.com/seatgeek/SGImageCache
 	pod 'SGImageCache'
-	
+
 2. SDWebImage:
 	url: https://github.com/rs/SDWebImage
-	
+
 3. FastImageCache:
 	url: https://github.com/path/FastImageCache
-	
-	
+
+
 动画效果
 =========
 1. POP: https://github.com/facebook/pop
@@ -58,7 +45,7 @@ Chat
 1. http://nextalk.im/
 2. https://layer.com/
 3. https://cn.avoscloud.com/features.html#/slide-2
-4. https://joindiaspora.com/ 
+4. https://joindiaspora.com/
 5. https://github.com/vcuculo/diaspora
 
 UI
@@ -66,7 +53,7 @@ UI
 1. https://github.com/ApmeM/android-flowlayout
 2. Android ViewPageIndicator
 
-Video Chat 
+Video Chat
 ============
 1. https://github.com/OpenRTMFP/Cumulus
 
@@ -81,25 +68,25 @@ WebRTC
 6. https://github.com/ging/licode
    http://lynckia.com/licode/
 7. http://openpeer.org/ p2p协议规范，适合与webrtc使用
-8. https://code.google.com/p/sipml5/ 
+8. https://code.google.com/p/sipml5/
    http://sipml5.org/
    http://webrtc2sip.org/
 9. https://github.com/muaz-khan/WebRTC-Experiment
-10. http://developer.openclove.com/develop 
+10. http://developer.openclove.com/develop
 11. http://developers.bistri.com/
 12. https://www.sharefest.me : webrtc方式的共享文件的方法，无需中央服务器
 13. https://github.com/peers/peerjs
 14. http://webrtcstats.com/integrate-webrtc/
 15. https://vline.com/developer/
-16. http://www.rtcmulticonnection.org/	
+16. http://www.rtcmulticonnection.org/
 17. https://jitsi.org/Main/HomePage
-18. FileBufferReader(https://github.com/muaz-khan/FileBufferReader) is a JavaScript library reads file and returns chunkified array-buffers. The resulting buffers can be shared using WebRTC data channels or socket.io. 
+18. FileBufferReader(https://github.com/muaz-khan/FileBufferReader) is a JavaScript library reads file and returns chunkified array-buffers. The resulting buffers can be shared using WebRTC data channels or socket.io.
 19. http://www.rtcmulticonnection.org/
     https://github.com/muaz-khan/RTCMultiConnection
 20. https://github.com/muaz-khan/getStats
-21. 
+21.
 
-	
+
 
 
 WebRTC Media Server
@@ -147,7 +134,7 @@ Javasciprt P2P
 2. http://rohanradio.com/rtc-p2p/
 3. https://github.com/theninj4/bonevalue
 4. https://github.com/ShareIt-project/ShareIt
-5. https://github.com/binux/webrtc_video6. 
+5. https://github.com/binux/webrtc_video6.
 6. http://www.peer-server.com/
 7. WebTorrent: https://github.com/feross/webtorrent
 8. http://jinroh.github.io/kadoh/
@@ -197,7 +184,7 @@ Javascript General
     - https://github.com/mobify/mobifyjs
     - http://www.mobify.com/mobifyjs/
 * Native/Package
-  - https://github.com/crcn/nexe 
+  - https://github.com/crcn/nexe
   - https://github.com/cfsghost/npk
   - http://requirejs.org
 * Chart
@@ -216,14 +203,14 @@ Javascript General
   - https://github.com/weichaoguo/merkle-tree
 * Functional
   - http://underscorejs.org/
-* Command line 
+* Command line
   - https://github.com/visionmedia/commander.js
   - https://github.com/IndigoUnited/node-promptly
   - https://github.com/visionmedia/co-prompt
   - http://sgmonda.github.io/stdio/
 * Websocket
   - http://stackoverflow.com/questions/16392260/which-websocket-library-to-use-with-node-js
-  - https://medium.com/@denizozger/finding-the-right-node-js-websocket-implementation-b63bfca0539   
+  - https://medium.com/@denizozger/finding-the-right-node-js-websocket-implementation-b63bfca0539
 * PeerKit
   - https://news.ycombinator.com/item?id=5457188
 * Dashboard
@@ -244,7 +231,7 @@ Javascript General
   - http://yui.github.io/yuicompressor/
 * Promises
   - https://github.com/kriskowal/q
-* FingerPrint 
+* FingerPrint
   - https://github.com/Valve/fingerprintJS
 * ID gen
   - https://github.com/T-PWK/flake-idgen
@@ -252,7 +239,7 @@ Javascript General
   - http://zohararad.github.io/audio5js/
 * Animation
   - http://greensock.com/
-* UI 
+* UI
   - https://github.com/angular-ui/bootstrap
 * Text steganography
   - https://github.com/jthuraisamy/markovTextStego.js
@@ -268,7 +255,7 @@ Javascript General
   - https://github.com/RobinDavid/LSB-Steganography
   - Java: https://github.com/abhijeet-adarsh/Steganography
   - The encrypted steganography filesystem: https://github.com/chiiph/ESFS
-  
+
 ## Javascript Obfuscation
 * http://www.jasob.com/
 * http://javaencrypt.com/?lang=en
@@ -277,17 +264,17 @@ Javascript General
 * http://jsutility.pjoneil.net/
 * https://jscrambler.com/en
 
-## Javascript binary 
+## Javascript binary
 * convert 6 digitals hex string to rgb:
   https://github.com/daniellmb/HEX-RGB-Conversion  
 * https://github.com/petereigenschink/steganography.js
 * https://bitbucket.org/StephaneBunel/steganowav
 * https://github.com/kylelemons/gosteg
 * https://github.com/jbochi/strogonoff
-* https://github.com/oakes/PixelJihad 
+* https://github.com/oakes/PixelJihad
 * https://github.com/tuseroni/stegano.js
 
-   
+
 Some tools
 =============
 1. https://github.com/progrium/localtunnel
@@ -302,7 +289,7 @@ Some tools
 9. https://github.com/billymoon/klog
 
 
-Face Recognition 
+Face Recognition
 ------------------
 
 ASM/AAM
@@ -331,38 +318,38 @@ How does peerCDN work?
 * http://sssslide.com/speakerdeck.com/feross/webrtc-data-black-magic
 * http://www.youtube.com/watch?v=g1GG7kT46l4
 * http://vimeo.com/77265280
-* How do peers find each other? 
+* How do peers find each other?
   - Up to you!
   - Here's an example:
     - Each user reports to server that they're online
     - Make information available to all peers
     - When a peer wants to connect to another peer, it asks the server for an introduction to that peer
-* What can you do with Data Channel? 
-  - Real-time chat 
-  - File sharing 
+* What can you do with Data Channel?
+  - Real-time chat
+  - File sharing
   - Super low latency networking for multiplayer games
-  - Distributed databases / distributed hash tables / mad scicence? 
+  - Distributed databases / distributed hash tables / mad scicence?
   - Dark Web? (Tor Hidden Services, Freenet)
   - CDN? (Content Delivery Network)
 * Central "tracker" server
-  - Tracks seeders, does peer introductions, file hashing 
+  - Tracks seeders, does peer introductions, file hashing
 * Client-side script
   - Resource "capturing", cache management, peering decisions, file splitting/recombing, file verification, seeding
 * Tracker down?
-  - Immediately fallback: load site normally 
-* Slow peers? 
+  - Immediately fallback: load site normally
+* Slow peers?
   - Slow peers are automatically pruned
-  - Speed check: if overall speed is too slow: load remaining data normally 
-* How is incorrect file data detected? 
-* Trust the central tracker server 
-  - Creates a SHA1 hash list (Merkle tree) for every file 
-* Peer use the hash list to verify that file data is correct 
-  - Use web worker pool for "streaming" SHA1 hashing 
+  - Speed check: if overall speed is too slow: load remaining data normally
+* How is incorrect file data detected?
+* Trust the central tracker server
+  - Creates a SHA1 hash list (Merkle tree) for every file
+* Peer use the hash list to verify that file data is correct
+  - Use web worker pool for "streaming" SHA1 hashing
   - Discard invalid data, try again from different peer (rare)
   - Rule: Never display unvalidated data to the user
-* peerCDN automatically serves all images on your site 
+* peerCDN automatically serves all images on your site
   - <img src="omg_cats.gif">
-* No site changes required , just copy-paste 
+* No site changes required , just copy-paste
 * How do you intercept image loads?
   - "Capturing" technique (by Shawn at Mobify, see Mozilla Hacks)
     - document.write('<plaintext style="display:none">')
@@ -372,10 +359,10 @@ How does peerCDN work?
 * How to stream video & audio ?
   - MediaSource API
     - Pipe JS binary data into HTML5 <video> and <audio> tags
-  - <video> decodes H.264, OGG, "MPEG container" media for you 
+  - <video> decodes H.264, OGG, "MPEG container" media for you
   - To handle seeking, you need keyframed video & pre-parsed video container
 * What about latency?
-  - Roundtrip to traker to find peers for a resource 
+  - Roundtrip to traker to find peers for a resource
   - Roundtrip through tracker for signaling
   - Roundtrip to STUN server (to generate ICE candidates)
   - Roundtrip to send/receive ICE candidates
@@ -383,8 +370,8 @@ How does peerCDN work?
   - Roundtrip to request file pieces and start receiving data
 * Latency hack
   - Only load below-the-fold images over peerCDN
-  - For video/audio, load first 10 seconds normally, peerCDN for rest 
-  - For big files, initial latency does't really matter 
+  - For video/audio, load first 10 seconds normally, peerCDN for rest
+  - For big files, initial latency does't really matter
     - Dominated by user's overall download speed
 
 
@@ -416,8 +403,8 @@ P2P Library
 * PJNATH
 	- http://www.pjsip.org/pjnath/docs/html/
 	- http://www.pjsip.org/
-	
-	
+
+
 Nodejs Tutorials
 =========================
 * http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js
