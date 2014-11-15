@@ -1,3 +1,4 @@
+
 开发中需要用到的工具分类
 ------------------------
 1. 源代码管理工具, 比如：git, svn
@@ -78,14 +79,12 @@ WebRTC
 13. https://github.com/peers/peerjs
 14. http://webrtcstats.com/integrate-webrtc/
 15. https://vline.com/developer/
-16. http://www.rtcmulticonnection.org/
 17. https://jitsi.org/Main/HomePage
 18. FileBufferReader(https://github.com/muaz-khan/FileBufferReader) is a JavaScript library reads file and returns chunkified array-buffers. The resulting buffers can be shared using WebRTC data channels or socket.io.
 19. http://www.rtcmulticonnection.org/
     https://github.com/muaz-khan/RTCMultiConnection
 20. https://github.com/muaz-khan/getStats
-21.
-
+21. 
 
 
 
@@ -133,12 +132,16 @@ Javasciprt P2P
 1. http://btappjs.com/
 2. http://rohanradio.com/rtc-p2p/
 3. https://github.com/theninj4/bonevalue
-4. https://github.com/ShareIt-project/ShareIt
+4. [ShareIt](https://github.com/ShareIt-project/ShareIt): [Demo](https://shareit.5apps.com/)
 5. https://github.com/binux/webrtc_video6.
 6. http://www.peer-server.com/
 7. WebTorrent: https://github.com/feross/webtorrent
-8. http://jinroh.github.io/kadoh/
-9. http://webp2p.org/
+8. [Kadoh](http://jinroh.github.io/kadoh/):
+	- The Kademlia DHT in Javascript for Node.js and Browsers
+http://jinroh.github.com/kadoh
+9. [WebP2P](http://shareit-project.github.io/WebP2P.io/)(http://webp2p.org/)
+10. [PeerMesh](http://peermesh.io): p2p GIS 
+11. [Peersm](http://peersm.com/peersm)
 10. http://cdn.peer5.com/pilots/kaltura/index.html
 11. http://www.peer-server.com/
 12. https://github.com/michaelrhodes/peer-file
@@ -147,6 +150,16 @@ Javasciprt P2P
 15. https://github.com/chetandhembre/DataChannel.js
 16. http://marcolanaro.github.io/DataChannel.IO/
 17. https://github.com/tOkeshu/waggle.js
+18. [PeerKit](https://github.com/PeerKit/peerkit)
+19. [QuickShare](https://github.com/orefalo/QuickShare)
+	[ugot.com](http://www.ugot.com/) 
+20. [DirtyShare](https://github.com/Miserlou/DirtyShare)
+21. [Ampere](https://github.com/hcliff/ampere)
+22. [Rtc-mesh](https://github.com/rtc-io/rtc-mesh)
+23. [rtc-quickconnect](https://github.com/rtc-io/rtc-quickconnect)
+24. [Scuttlebutt](https://github.com/dominictarr/scuttlebutt)
+25. [RTC](https://github.com/rtc-io/rtc)
+
 
 
 Javascript Crypto/Hash
@@ -156,7 +169,58 @@ Javascript Crypto/Hash
 3. https://code.google.com/p/crypto-js
 4. https://github.com/h2non/jsHashes
 5. Hash tree: https://github.com/c-geek/merkle
+6. [MurmurHash3](https://github.com/pid/murmurHash3js)
+	A JavaScript implementation of MurmurHash3's x86 hashing algorithms - npm - nodejs module (http://pid.github.io/murmurHash3js/)
+7. [Jenkins](https://github.com/vkandy/jenkins-hash-js)
+	Jenkins hash in Javascript which yields both 32-bit and 64-bit hash values
 
+Javascript
+=============
+### Markdown
+* [showdown](https://github.com/showdownjs/showdown)
+* [angular-markdown-directive](https://github.com/btford/angular-markdown-directive)
+* [Pagedown](https://code.google.com/p/pagedown/)
+
+### Player
+* [JPlayer](http://www.jplayer.org/): [source code](https://github.com/happyworm/jPlayer)
+* [CirclePlayer](https://github.com/maboa/circleplayer)
+* [Jing.fm](http://jing.fm/)
+
+## Music notation
+* [VexFlow 2](https://github.com/0xfe/vexflow)
+
+## Soud effect
+* [Jsfx](http://egonelbre.com/project/jsfx/)
+
+## Pubsub/Observer
+* [PubSubJS](https://github.com/mroderick/PubSubJS)
+* [pubsub](http://snipplr.com/view/66441/javascript-observer-pattern/)
+* [Arbiterjs](http://arbiterjs.com/)
+* [Pubsubz](https://github.com/addyosmani/pubsubz)
+* [Amplifyjs](http://amplifyjs.com/)
+* [Postal.js](https://github.com/postaljs/postal.js)
+	- JavaScript pub/sub library supporting some advanced subscription features, plus message capture and replay
+http://freshbrewedcode.com/jimcowart
+* [PubSub](https://github.com/bdadam/PubSub)
+
+## DOM
+* [HTML.js](http://nbubna.github.io/HTML/)
+
+## Dashboard 
+* [Angular-dashboard](https://github.com/DataTorrent/malhar-angular-dashboard)
+	- dashboard widgets 
+* [Reponsive-Dashboard](https://github.com/Ehesp/Responsive-Dashboard):
+	- Bloat free responsive dashboard - powered by AngularJS and Bootstrap
+[http://ehesp.github.io/Responsive-Dashboard/](http://ehesp.github.io/Responsive-Dashboard/)
+* [Gauge.js](https://bernii.github.io/gauge.js/)
+* [Justgage](https://github.com/toorshia/justgage)
+	- [Demo](http://justgage.com/)
+* [jGauge](https://github.com/dariancabot/jGauge)
+	- [Screenshot](https://code.google.com/p/jgauge/)
+	
+## Data Visualizations 
+* [InfoVis Toolkit](http://philogb.github.io/jit/)
+* [Voronoi Tessellation](http://bl.ocks.org/mbostock/4060366)
 
 Javascript General
 =====================
@@ -256,6 +320,22 @@ Javascript General
   - Java: https://github.com/abhijeet-adarsh/Steganography
   - The encrypted steganography filesystem: https://github.com/chiiph/ESFS
 
+
+## Tools
+* [Node-mockit](https://github.com/ipconfiger/node-mockit)
+	- Json API test tool 
+
+## Javascript AOP
+* [underscore-aop](https://github.com/jnewman/underscore-aop)
+* [Meld](https://github.com/cujojs/meld)
+* [Aop.js](https://github.com/daniellmb/aop.js)
+* [Aop.js](https://github.com/countable/aop.js)
+* [AOP](https://github.com/notejs/aop)
+* [Aop](https://github.com/davedx/aop)
+
+
+
+
 ## Javascript Obfuscation
 * http://www.jasob.com/
 * http://javaencrypt.com/?lang=en
@@ -274,6 +354,37 @@ Javascript General
 * https://github.com/oakes/PixelJihad
 * https://github.com/tuseroni/stegano.js
 
+## Javascript UI Layout
+[Angular-Deckgrid](https://github.com/akoenig/angular-deckgrid)
+
+
+## Javascript Web Speech API
+* [Voice-Element](http://zenorocha.github.io/voice-elements/)
+  - [Demo](http://andrekoenig.info/angular-deckgrid/#/)
+
+## Plugin system
+* [ScaleApp](https://github.com/flosse/scaleApp)
+* [Soma.js](http://somajs.github.io/somajs/site/)
+* [Nano](http://www.nanojs.org/)
+* [Architect](https://github.com/c9/architect)
+
+# Javascript Big Number
+* Tom Wu's [jsbn.js](http://www-cs-students.stanford.edu/~tjw/jsbn/)
+	Comprehensive set of functions and fast
+* Leemon Baird's [big integer library](http://www.leemon.com/crypto/BigInt.js)
+	Comprehensive set of functions and pretty fast
+	BUT: Negative number representation is buggy!
+* [bignumber.js](https://github.com/MikeMcl/bignumber.js)
+	Pretty complete set of functions
+	BUT: Converting really big numbers from strings into BigNumber objects result in INFINITY
+* [Decimal.js](https://github.com/MikeMcl/decimal.js)
+* [Scheme arithmetic library for JavaScript](https://github.com/jtobey/javascript-bignum)
+	JS-Implementation of Scheme arithmetic functions
+	BUT: No function for y= x^e mod n
+* [BigNumber](http://jsfromhell.com/classes/bignumber)
+
+Functions for high precision claculations
+BUT: It's said to be slow due to internal representation of numbers as strings
 
 Some tools
 =============
@@ -348,18 +459,18 @@ How does peerCDN work?
   - Discard invalid data, try again from different peer (rare)
   - Rule: Never display unvalidated data to the user
 * peerCDN automatically serves all images on your site
-  - <img src="omg_cats.gif">
+  - (img src="omg_cats.gif")
 * No site changes required , just copy-paste
 * How do you intercept image loads?
   - "Capturing" technique (by Shawn at Mobify, see Mozilla Hacks)
-    - document.write('<plaintext style="display:none">')
+    - document.write('(plaintext style="display:none")')
     - Wait for HTML to load
-    - Change all '<img src="cat.gif">' to '<img data-peercdn-src="cat.gif">'
+    - Change all 'img src="cat.gif"' to 'img data-peercdn-src="cat.gif"'
     - Inject HTML back into page w/document.open() & document.write()
 * How to stream video & audio ?
   - MediaSource API
-    - Pipe JS binary data into HTML5 <video> and <audio> tags
-  - <video> decodes H.264, OGG, "MPEG container" media for you
+    - Pipe JS binary data into HTML5 video and audio tags
+  - video decodes H.264, OGG, "MPEG container" media for you
   - To handle seeking, you need keyframed video & pre-parsed video container
 * What about latency?
   - Roundtrip to traker to find peers for a resource
@@ -403,6 +514,8 @@ P2P Library
 * PJNATH
 	- http://www.pjsip.org/pjnath/docs/html/
 	- http://www.pjsip.org/
+* [Pastry DHT](http://en.wikipedia.org/wiki/Pastry_(DHT))
+	- [Wendy](https://github.com/secondbit/wendy)
 
 
 Nodejs Tutorials
@@ -423,3 +536,35 @@ DHT: http://jinroh.github.io/kadoh/
 * https://github.com/lotem/librime
 * https://github.com/lotem/squirrel
 * https://code.google.com/p/rimeime/
+
+C++ Refactor
+============
+* [refactorial](https://github.com/lukhnos/refactorial)
+
+
+# Xcode tools 
+=================
+* [nomad-cli](http://nomad-cli.com/)
+* [xctool](http://nshipster.com/xctool/)
+* [Alcatraz](http://alcatraz.io/): A package management for xcode
+
+
+# ios components 
+====================
+* [SCLAlertView-Swift](https://github.com/vikmeup/SCLAlertView-Swift)
+* [Typhoon Framework](https://github.com/typhoon-framework/Typhoon): Poweful dependency injection for iOS & OSX (Objective-C & Swift) 
+* [ReactKit](https://github.com/ReactKit/ReactKit)
+* [M2DWebViewController](https://github.com/0x0c/M2DWebViewController)
+* [SwiftTask](https://github.com/ReactKit/SwiftTask)
+
+
+# Web browser plugins
+========================
+* [Blippex chrome](https://github.com/blippex/blippex_plugin_chrome)
+* [Blippex firefox](https://github.com/blippex/blippex_plugin_firefox)
+* [Safari](https://github.com/blippex/blippex_plugin_safari)
+
+
+# Cloud
+## Docker
+* [Deis](https://github.com/deis/deis)
