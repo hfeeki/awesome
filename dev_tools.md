@@ -123,8 +123,9 @@ Javascript Concurrent
 * deferred.js: http://documentup.com/medikoo/deferred/
                 https://github.com/medikoo/deferred
 * Concurrent.Thread： http://sourceforge.net/projects/jsthread/
-* Parallel.js: http://adambom.github.io/parallel.js/
-               https://github.com/adambom/parallel.js
+* [Parallel.js](http://adambom.github.io/parallel.js/)
+  - [github](https://github.com/adambom/parallel.js)
+* [Promise-polyfill](https://github.com/taylorhakes/promise-polyfill)
 
 
 Javasciprt P2P
@@ -164,7 +165,7 @@ http://jinroh.github.com/kadoh
 
 Javascript Crypto/Hash
 ========================
-1. https://github.com/bitwiseshiftleft/sjcl
+1. [Sjcl](https://github.com/bitwiseshiftleft/sjcl)
 2. https://github.com/clipperz/javascript-crypto-library
 3. https://code.google.com/p/crypto-js
 4. https://github.com/h2non/jsHashes
@@ -173,6 +174,9 @@ Javascript Crypto/Hash
 	A JavaScript implementation of MurmurHash3's x86 hashing algorithms - npm - nodejs module (http://pid.github.io/murmurHash3js/)
 7. [Jenkins](https://github.com/vkandy/jenkins-hash-js)
 	Jenkins hash in Javascript which yields both 32-bit and 64-bit hash values
+8. [OpenPGPjs](https://github.com/openpgpjs/openpgpjs/)
+9. [JSEncrypt](https://github.com/travist/jsencrypt)
+10. [IBEJs](https://github.com/airpim/ibejs)
 
 Javascript
 =============
@@ -221,6 +225,107 @@ http://freshbrewedcode.com/jimcowart
 ## Data Visualizations 
 * [InfoVis Toolkit](http://philogb.github.io/jit/)
 * [Voronoi Tessellation](http://bl.ocks.org/mbostock/4060366)
+
+## Angular
+* [angular-deckgrid](http://andrekoenig.info/angular-deckgrid/#/)
+
+## 数据统计工具
+[Ranaly](https://github.com/luin/ranaly)
+
+
+## Polymer 
+* [Leaflet-map-component](https://github.com/prtksxna/leaflet-map-component)
+* [Open-map](https://github.com/ruben96/open-map)
+
+## Circle Progressbar 
+* [jQuery-Knob](https://github.com/aterrien/jQuery-Knob)
+  - [Demo](http://anthonyterrien.com/knob/)
+* [Progressbar.js](https://github.com/kimmobrunfeldt/progressbar.js)
+  - [Demo](http://kimmobrunfeldt.github.io/progressbar.js)
+* [Circular-Progress](https://github.com/neoziro/circular-progress)
+
+
+## 3D Map
+* [Cesium](http://cesiumjs.org/)
+
+## Async
+* [Async](https://github.com/caolan/async)
+
+
+## Javascript面试问题
+* [Javascript-Garden](http://bonsaiden.github.io/JavaScript-Garden/zh/)
+* [前端开发面试问题集锦]
+  - [Front-end Job Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
+  - [A Baseline for Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
+  - [Interviewing a front-end developer](http://blog.sourcing.io/interview-questions?utm_source=ourjs.com)
+  
+
+## Obfuscation
+* Variable entanglement
+  - [Where and how is variable entanglement obfuscation used?](http://reverseengineering.stackexchange.com/questions/2489/where-and-how-is-variable-entanglement-obfuscation-used)
+  - [Local Hidden Variable Theory](http://en.wikipedia.org/wiki/Local_hidden_variable_theory)
+  - [Inverting functions HOWTO](http://reverseengineering.stackexchange.com/questions/3345/inverting-functions-howto/3349#3349)
+* 已知的各种混淆方法
+  - Instruction camouflage (code cloaking)
+    - [What is “instruction camouflage” obfuscation?](http://reverseengineering.stackexchange.com/questions/1673/what-is-instruction-camouflage-obfuscation?rq=1)
+    - [A software protection method based on instruction camouflage (2004)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.125.5028)
+  - Control-flow flattening 
+    - [What is a “control-flow flattening” obfuscation technique?](http://reverseengineering.stackexchange.com/questions/2221/what-is-a-control-flow-flattening-obfuscation-technique?rq=1)
+    - [How to ﬂattening a function](http://www.inf.u-szeged.hu/~akiss/pub/pdf/laszlo_obfuscating.pdf)
+  - Mathematical jigsaw puzzle 
+  - Semantics based
+    - [Semantics-based obfuscation](http://reverseengineering.stackexchange.com/questions/3093/semantics-based-obfuscation?rq=1)
+
+
+
+## 第三方混淆工具
+* [JScrambler](https://jscrambler.com/en)
+   
+   
+## Javascript parser
+* [Esprima-ast-utils](https://www.npmjs.org/package/esprima-ast-utils)
+  - https://github.com/hfeeki/esprima-ast-utils
+  - getParent
+  - getRoot
+  - setIdentifier
+  - renameProperty
+  - renameVariable
+  - renameFunction
+* [Esprima_fun](https://github.com/hfeeki/esprima_fun)
+  - detect_leaks 
+  - scope_chain
+* [PlayingWithEsprima](https://github.com/jimmyhchan/playingWithEsprima)
+* [Estraverse](https://github.com/estools/estraverse)
+* [Regenerator](https://github.com/facebook/regenerator)
+* [Recast](https://github.com/benjamn/recast)
+* [Es6-tools](https://github.com/addyosmani/es6-tools)
+  
+  
+## DataStructure
+* [LRU-Cache](https://github.com/fictorial/lru-cache)
+* [js-lru](https://github.com/rsms/js-lru)
+* [IndexedDBCache](https://github.com/sslash/indexedDBCache)
+* [Dexie.js](https://github.com/dfahlander/Dexie.js)
+* [localForage](http://mozilla.github.io/localForage/)
+  
+## Functional Encryption
+  - [What is this 'mathematical jigsaw puzzles' obfuscation?](http://reverseengineering.stackexchange.com/questions/2586/what-is-this-mathematical-jigsaw-puzzles-obfuscation)
+  - [Computer scientists develop 'mathematical jigsaw puzzles' to encrypt software](http://newsroom.ucla.edu/releases/ucla-computer-scientists-develop-247527)
+  - [Practical consequences of using functional encryption for software obfuscation](http://crypto.stackexchange.com/questions/9497/practical-consequences-of-using-functional-encryption-for-software-obfuscation)
+  - [Describe an example of indistinguishability obfuscation or functional encryption](http://security.stackexchange.com/questions/50937/describe-an-example-of-indistinguishability-obfuscation-or-functional-encryption)
+  - [On the indistinguishability obfuscation (informally) - Reverse Engineering Stack Exchange](http://reverseengineering.stackexchange.com/questions/3077/on-the-indistinguishability-obfuscation-informally)
+  - [On the (Im)possibility of Obfuscating Programs](http://www.wisdom.weizmann.ac.il/~oded/PS/obf4.pdf)
+  - [How to Use Indistinguishability Obfuscation:Deniable Encryption, and More](http://eprint.iacr.org/2013/454.pdf)
+  - [Function-Private Identity-Based Encryption:Hiding the Function in Functional Encryption](http://eprint.iacr.org/2013/283.pdf)
+  - [Candidate Indistinguishability Obfuscationand Functional Encryption for all circuits](http://eprint.iacr.org/2013/451.pdf)
+  - [Functional encryption: definitions and challenges](http://eprint.iacr.org/2010/543.pdf)
+  - [Controlled Functional Encryption](https://web.engr.illinois.edu/~naveed2/pub/CCS2014CFE.pdf)
+  - [Functional Encryption](http://en.wikipedia.org/wiki/Functional_encryption)
+  - [ShadowCrypt: Encrypted Web Applications for Everyone](https://www.cs.umd.edu/~elaine/docs/shadowcrypt.pdf)
+  - [ID Based Encryption](http://en.wikipedia.org/wiki/ID-based_encryption)
+  
+## Functional Encryption Library
+* [LibFenc](https://code.google.com/p/libfenc/) 
 
 Javascript General
 =====================
@@ -332,7 +437,7 @@ Javascript General
 * [Aop.js](https://github.com/countable/aop.js)
 * [AOP](https://github.com/notejs/aop)
 * [Aop](https://github.com/davedx/aop)
-
+* [Method-Combinators](https://github.com/raganwald/method-combinators)
 
 
 
@@ -360,13 +465,16 @@ Javascript General
 
 ## Javascript Web Speech API
 * [Voice-Element](http://zenorocha.github.io/voice-elements/)
-  - [Demo](http://andrekoenig.info/angular-deckgrid/#/)
+ 
 
 ## Plugin system
 * [ScaleApp](https://github.com/flosse/scaleApp)
 * [Soma.js](http://somajs.github.io/somajs/site/)
 * [Nano](http://www.nanojs.org/)
 * [Architect](https://github.com/c9/architect)
+
+## 
+
 
 # Javascript Big Number
 * Tom Wu's [jsbn.js](http://www-cs-students.stanford.edu/~tjw/jsbn/)
@@ -382,9 +490,8 @@ Javascript General
 	JS-Implementation of Scheme arithmetic functions
 	BUT: No function for y= x^e mod n
 * [BigNumber](http://jsfromhell.com/classes/bignumber)
-
-Functions for high precision claculations
-BUT: It's said to be slow due to internal representation of numbers as strings
+	Functions for high precision claculations
+	BUT: It's said to be slow due to internal representation of numbers as strings
 
 Some tools
 =============
